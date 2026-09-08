@@ -1,7 +1,7 @@
 from collections import Counter
 from pathlib import Path
 
-LOG_FILE = Path(__file__).parent.parent / "registros" / "security.log"
+LOG_FILE = Path(__file__).parent.parent / "logs" / "security.log"
 
 SUSPICIOUS_EVENTS = {
     "LOGIN_FAILED",
